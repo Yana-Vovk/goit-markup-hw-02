@@ -5,3 +5,35 @@
   --secondary-color: #ffffff;
   --footer-color: rgba(255, 255, 255, 0.6);
 }
+
+/* Стили для шапки */
+
+.headnav a {
+  color: var(--heading-color);
+}
+
+.headnav a:hover,
+.headnav a:focus {
+  color: var(--active-color);
+}
+
+.logo {
+  color: var(--heading-color);
+}
+
+.logo-blue {
+  color: var(--active-color);
+}
+
+.contacts a {
+  color: var(--text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--active-color);
+}
+
+.headnav .current-portf {
+  color: var(--active-color);
+}
