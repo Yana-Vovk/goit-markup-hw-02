@@ -1,0 +1,33 @@
+/* Стили для первой страницы */
+.hero {
+  background-color: var(--background);
+}
+
+.hero h1 {
+  color: var(--secondary-color);
+}
+
+.hero .button {
+  color: var(--secondary-color);
+  background-color: var(--active-color);
+  border: none;
+}
+
+.team p,
+.projects p {
+  color: var(--main-color);
+}
+
+/* Стили для второй страницы - портфолио */
+.filter .button {
+  color: var(--heading-color);
+  background-color: var(--light-background);
+  border: none;
+}
+
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--secondary-color);
+  background-color: var(--active-color);
+  border: none;
+}

@@ -6,12 +6,23 @@
   --secondary-color: #ffffff;
   --footer-color: rgba(255, 255, 255, 0.6);
   --background: #2f303a;
+  --light-background: #f5f4fa;
 }
 
 /* Основные стили */
 body {
   background-color: var(--secondary-color);
   color: var(--main-color);
+}
+
+/* Типография */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
 }
 
 /* Логотип шапки*/
