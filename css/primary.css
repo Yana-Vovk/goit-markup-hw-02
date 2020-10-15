@@ -18,6 +18,7 @@ body {
 .logo-head {
   color: var(--heading-color);
 }
+
 .logo-blue {
   color: var(--active-color);
 }
@@ -27,26 +28,52 @@ body {
   color: var(--secondary-color);
 }
 
-/* Стили для шапки */
+/* Убрать подчёркивания у ссылок */
+.link {
+  text-decoration: none;
+}
 
-.headnav a {
+/* Убрать маркировку списков */
+.list {
+  list-style: none;
+}
+
+/* Стили для шапки */
+.headnav .link {
   color: var(--heading-color);
 }
 
-.headnav a:hover,
-.headnav a:focus {
+.headnav .link:hover,
+.headnav .link:focus {
   color: var(--active-color);
 }
 
-.contacts a {
+.contacts .link {
   color: var(--main-color);
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--active-color);
 }
 
-.headnav .current-portf {
+.headnav .current {
   color: var(--active-color);
+}
+
+/* Стили для подвала */
+.footer-box {
+  background-color: var(--background);
+}
+
+.address {
+  color: var(--secondary-color);
+}
+
+.info {
+  color: var(--footer-color);
+}
+
+.footer-box .list {
+  font-style: normal;
 }
