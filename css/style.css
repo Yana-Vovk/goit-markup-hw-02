@@ -5,12 +5,30 @@
 
 .hero h1 {
   color: var(--secondary-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero .button {
+  font-family: "Roboto", sans-serif;
   color: var(--secondary-color);
   background-color: var(--active-color);
   border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.hero .position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .team p,
@@ -20,6 +38,7 @@
 
 /* Стили для второй страницы - портфолио */
 .filter .button {
+  font-family: "Roboto", sans-serif;
   color: var(--heading-color);
   background-color: var(--light-background);
   border: none;
