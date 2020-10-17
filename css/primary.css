@@ -128,3 +128,10 @@ h6 {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.address:hover,
+.address:focus,
+.info:hover,
+.info:focus {
+  color: var(--active-color);
+}
